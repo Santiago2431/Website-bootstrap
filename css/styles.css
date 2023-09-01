@@ -1,0 +1,387 @@
+.bg-portafolio-nav{
+    background: rgb(194, 172, 172);
+}
+
+.btn-primary-p{
+    padding: 12px 20px;
+    color: black;
+    background: rebeccapurple;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 22px 0;
+    transition: .5s;
+}
+
+.btn-primary-p:hover{
+    background: cadetblue;
+    border-radius: 0;
+}
+
+#service{
+    text-align: center;
+    padding: 100px;
+}
+
+#service{
+    margin-bottom: 60px;
+    color: brown;
+}
+
+#about{
+    text-align: center;
+    padding: 100px;
+}
+
+#about{
+    margin-bottom: 60px;
+    color: brown;
+}
+
+
+
+#carouselheroCaptions .carousel-caption{
+    bottom: 50%;
+
+}
+
+#carouselheroCaptions .carousel-caption h5{
+    font-size: 50px;
+}
+
+#carouselheroCaptions .carousel-captions p{
+    font-size: 26px;   
+}
+
+#carouselheroCaptions .carousel-indicators{
+    bottom: 47%;
+}
+
+#carouselheroCaptions .carousel-indicators button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#about img{
+    width: 500px;
+    max-width: 100%;
+}
+
+#service .iteam-servicio{
+    padding-bottom: 30px;
+    padding-top: 20px;
+    transition: .5s;
+}
+#service .iteam-servicio:hover{
+    -webkit-box-shadow: -12px 3px 81px 7px rgba(18,18,18,1);
+    -moz-box-shadow: -12px 3px 81px 7px rgba(18,18,18,1);
+    box-shadow: -12px 3px 81px 7px rgba(18,18,18,1);
+}
+.whatsapp{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 99;
+}
+
+.whatsapp:hover{
+    -webkit-box-shadow: 1px -3px 7px 14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px -3px 7px 14px rgba(0,0,0,0.75);
+    box-shadow: 1px -3px 7px 14px rgba(0,0,0,0.75);
+    border-radius: 50%;
+}
+
+#questions{ 
+    background: rgb(199, 184, 184);
+}
+
+#text{
+    text-align: center;
+    background-color: aqua;
+}
+
+
+#javascript{
+    width: 100%;
+    position:relative;
+    padding: 120px 0;
+    background: rgb(108, 65, 65);
+    overflow: hidden;
+    z-index: 0;
+}
+
+#panel-lateral{
+    width: 30%;
+    height: 100%;
+    background: rgb(144, 93, 93);
+    position: absolute;
+    left: -30%;
+    top: 0;
+    z-index: 0;
+    transition: .5s;
+}
+
+#panel-lateral.close-panellateral{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    background: beige;
+}
+
+#panel-lateral h3{
+    margin-top: 60px;
+    text-align: center;
+    color: azure;
+}
+
+#panel-lateral ul{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#panel-lateral li{
+    list-style: none;
+}
+
+#panel-lateral li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: rgb(83, 59, 59);
+    border: brown;
+    color: burlywood;
+    margin: 15px 0;
+    transition: .5s;
+}
+
+
+#panel-lateral li a :hover{
+    background: rgb(146, 145, 145);
+    color:antiquewhite;
+    border: 2px solid bisque;
+}
+
+
+#panel-lateral.active{
+    left: 0;
+}
+
+#javascript h2{
+    color: aliceblue;
+}
+
+#javascript button{
+    align-items: center;
+    background: rgb(175, 171, 165);
+    color: rgb(133, 109, 109);
+    border: 1px solid brown;
+    margin: 5px 8px;
+    border-radius: 4px;
+    padding: 6px 20px;
+    font-size: 15px;
+    width: 200px ; 
+    transition: .5s;
+    
+}
+
+#javascript hr{
+    background-color: aliceblue;
+}
+#javascript button:hover{
+    background: rgb(175, 171, 165);
+    color: rgb(133, 109, 109);
+    border: 2px solid burlywood;
+    
+}
+
+
+/*#javascript #figura{
+    margin: 40px auto;
+    border: 2px solid black;
+    transition: 1s;
+}
+
+#figura{
+    width: 200px;
+    background: blueviolet;
+    height: 200px;
+    margin: 40px;
+    transition: 1s;
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background-color: yellow;
+    border: 2px;
+    transition: 1s;
+}   
+
+#figura.circulo{
+    transform: rotate(-360deg);
+    background: yellow;
+    border: 2px;
+}*/
+#javascript #figura{
+   
+    margin: 40px auto;
+   border: 2px solid rgb(153, 51, 51);
+   transition: 1s;
+}
+
+#figura{
+    width: 200px;
+    background: rgb(65, 121, 121);
+    height: 200px;
+    margin: 40px;
+    transition: 1s;
+    ;
+
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    background: rgb(79, 90, 63);
+    border: 2px;
+    transition: 1s;
+}
+
+#figura.circulo{
+    transform: rotate(-360deg);
+    background: rgb(118, 163, 49);
+    border: 2px;
+}
+
+#figura.top{
+    transform: translateY(-100px);
+}
+
+#figura.gif{
+    background: url('..img/');
+}
+
+#figura.bottom{
+    transform: translateY(100px);
+}
+
+#figura.left{
+    transform: translateX(-100px);
+}
+
+#figura.rhigt{
+    transform: translateX(100px);
+}
+
+#figura.horizontal{
+    width: 600px;
+}
+
+#figura.vertical{
+    height: 600px;
+}
+
+#figura.degradado{
+    transition: 1s;
+    background-image: linear-gradient(rgb(141, 71, 71),rgb(145, 145, 159));
+    
+}
+
+
+
+#figura.rombo{
+    width: 200px;
+    height: 200px;
+    background: aqua;
+    transform: rotate(45deg) skew(15deg,15deg);
+}
+
+#figura.triangulo{
+
+width: 0;
+height: 0;
+border-bottom: 100px solid aqua;
+border-right: 50px solid transparent;
+border-left: 50px solid transparent;
+}
+
+#panel-superior{
+    width: 30%;
+    height: 100%;
+    background: rgb(119, 99, 99);
+    position: absolute;
+    left: -30%;
+    top: 0;
+    z-index: 0;
+    transition: .5s;
+
+}
+
+#panel-superior.close-panel{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    text-align: center;
+    background: rgb(135, 73, 73);
+   
+
+}
+
+
+#panel-superior h3{
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+}
+
+#panel-superior ul{
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#panel-superior li{
+    list-style: none;
+}
+
+#panel-superior li a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+    background: rgb(105, 78, 78);
+    border: 1px solid aqua;
+    color: bisque;
+    margin: 15px 0;
+    transition: .5s;
+    
+
+}
+
+#panel-superior li a:hover{
+    background: white;
+    color: rgb(100, 81, 81);
+    border: 2px solid black;
+
+}
+
+
+#panel-superior.active{
+top: 0;
+
+}
+
+
+
+
+
+
+
+
+
